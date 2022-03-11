@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{
+	vertical-align: top;
+}
+body{
+	font-family: 'Lato', sans-serif;
+
+}
+.header{
+	font-size: medium;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-transform:uppercase;
+	white-space:inherit;
+	color: rgb(235, 59, 36);
+	text-shadow: 2px 2px 10px #000;
+}
+span{
+	color: darkgrey;
+	text-shadow: 2px 2px 10px rgb(163, 115, 115);
+}
+.main{
+	font-family: Lora;
+	font-style: italic;
+	font-weight: 200;
+}
+li{
+	font-size: medium;
+	font-weight: 700;
+	text-align: center;
+	color: rgb(15, 184, 40);
+	font-style: normal;
+	line-height: 50px;
+}
+.saneok {
+	color: crimson;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.sashka {
+	color: darkorange;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.iurka {
+	color: darkorchid;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.slavchik {
+	color: deeppink;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.denisik {
+	color: goldenrod;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.block{
+	font-family: Gilroy;
+	letter-spacing: 1px;
+	line-height: 20px;
+	color: olivedrab;
+	text-shadow: 2px 2px 20px #000;
+}
